@@ -12,7 +12,7 @@ export const defaultMessage = (supportedGames) => {
         .addField(
             "Available games:",
             `${supportedGames.map((game) => `${game.name} ${game.message}`).join("\n")}\n\n${emojis.clock} 
-      Each lobby is valid for 30 minutes or until lobby creator doesn't remove it\n\n${emojis.smiley}`,
+      Each lobby is valid for 30 minutes or until the lobby creator removes it`,
             true
         );
 };
