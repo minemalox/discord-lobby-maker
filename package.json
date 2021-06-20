@@ -2,7 +2,7 @@
   "name": "discord-lobby-maker",
   "version": "1.0.0",
   "main": "app.js",
-  "repository": "https://github.com/maciejsawinski/discord-lobby-maker.git",
+  "repository": "https://github.com/minemalox/discord-lobby-maker",
   "author": "maciejsawinski <macsawinski@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -15,6 +15,6 @@
   },
   "type": "module",
   "engines": {
-    "node": "^13"
+    "node": "14.17.0"
   }
 }
